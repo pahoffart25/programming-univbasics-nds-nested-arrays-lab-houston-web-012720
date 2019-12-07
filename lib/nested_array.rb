@@ -33,7 +33,7 @@ def array_literal_matrix
     ENNET_HOUSE,
     ENFIELD_TENNIS_ACADEMY
   ]
-  combined.sort
+  return combined.sort
 end
 
 def matrix_lookup(matrix, row, column)
